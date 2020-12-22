@@ -1,0 +1,49 @@
+body {
+  /* css trick perfect backgroud */
+  background: url(img/bg.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+
+}
+.content{
+   
+    
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    color:#efeaf2;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3em;
+    animation: lightSpeedInRight;
+    animation-duration: 4s;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.linkto{
+    color: #e6dee0;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-decoration: none;
+
+    
+}
+
+.linkto:hover{
+    animation: heartBeat;
+    animation-duration: 15s;
+}
